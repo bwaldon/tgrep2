@@ -11,3 +11,10 @@ To run:
 ```
 ./tgrep2
 ```
+
+Verify it's working:
+
+```
+tgrep2 -c corpus.t2c "TOP"
+```
+
