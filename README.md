@@ -15,6 +15,6 @@ To run:
 Verify it's working:
 
 ```
-tgrep2 -c corpus.t2c "TOP"
+./tgrep2 -c corpus.t2c "TOP"
 ```
 
