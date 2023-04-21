@@ -157,10 +157,10 @@ because there is a bug in the xlc optimizer.
 #  define NTOHS(x) ntohs(x)
 #  define HTONS(x) htons(x)
 #else
-#  define NTOHL(x) (x)
-#  define HTONL(x) (x)
-#  define NTOHS(x) (x)
-#  define HTONS(x) (x)
+/* #  define NTOHL(x) (x) */
+/* #  define HTONL(x) (x) */
+/* #  define NTOHS(x) (x) */
+/* #  define HTONS(x) (x) */
 #  define NaNfbytes {{ 0x7f, 0xc0, 0, 0 }}
 #  define NaNdbytes {{ 0xff, 0xf8, 0, 0, 0, 0, 0, 0 }}
 #endif /* LITTLE_END */
